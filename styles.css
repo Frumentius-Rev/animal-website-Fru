@@ -1,0 +1,45 @@
+/*Change the background colour
+Change the font
+Center the title
+Add a border to the image */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+h1{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-self: center;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+li{
+    padding: 4px;    
+}
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    box-shadow: 2px 2px;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+footer{
+    opacity: 0.7;
+    align-items: center;
+    padding: 5px;
+}
